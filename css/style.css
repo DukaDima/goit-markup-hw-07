@@ -829,6 +829,7 @@ textarea {
 .form-field textarea:hover,
 .form-field textarea:focus {
     cursor: pointer;
+    outline: none;
     border: 1px solid var(--accent-text-color);
 
 }
