@@ -340,6 +340,8 @@ img {
     position: relative;
    
 }
+
+/* -------- */
 .task-name {
     position: absolute;
     bottom: 0;
@@ -501,6 +503,7 @@ margin-right: 30px;
 .person-element:last-child {
     margin-right: 0px; 
 }
+/* -------постоянные клиенты----- */
 .regular-clients {
     padding-top: 94px;
     padding-bottom: 94px;
