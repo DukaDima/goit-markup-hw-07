@@ -1,9 +1,12 @@
 
 // --------------  e-mail button     -----------
 .mail-button {
+
     display: flex;
-    height: 50px;
     align-items: center;
+    // @extend %flex;
+
+     height: 50px;
      padding:0 29px;
  
      color: $primary-color;
@@ -23,7 +26,7 @@
         fill: currentColor;
        }
 
- }
+}
 
 //  -----  end  e-mail button    -----------
 

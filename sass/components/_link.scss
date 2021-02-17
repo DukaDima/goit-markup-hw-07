@@ -1,9 +1,10 @@
 // links decoration
 .link-nostyle {
     display: inline-block;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+    // text-decoration: none;
+    // margin: 0;
+    // padding: 0;
+    @extend %decorReset;
 
     transition: color 250ms $cubic, background-color 250ms $cubic;
  
@@ -20,9 +21,10 @@
 .link-footer {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+    // text-decoration: none;
+    // margin: 0;
+    // padding: 0;
+    @extend %decorReset;
 
     transition: color 250ms $cubic, background-color 250ms $cubic;
  
