@@ -1,8 +1,11 @@
 // Оформление кнопки социальных сетей
 .social-button {
     display: flex;
-    justify-content: center;
     align-items: center;
+
+    // @extend %flex;
+
+    justify-content: center;
     padding: 0px;
     cursor: pointer;
     border: none;

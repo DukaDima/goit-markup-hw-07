@@ -1,12 +1,14 @@
 // navigation
 .nav {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    @extend %flex;
     }
 
     .header-nav {
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // align-items: center;
+        @extend %flex;
         justify-content: space-between;
     }
     .site-nav .item {
@@ -19,7 +21,8 @@
     }
 
     .contact-nav {
-        display: flex;    
+        // display: flex;    
+        @extend %flex;
 
     }
 

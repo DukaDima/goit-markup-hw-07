@@ -3,9 +3,12 @@
     margin-right: 93px;
     padding-top: 25px;
     padding-bottom: 25px; 
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+
+    @include font(26px, 700, 32px);
+    
+    // font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.2;
     font-family: $logo-font, $reserve-font;
     color: $accent-text-color;
 
